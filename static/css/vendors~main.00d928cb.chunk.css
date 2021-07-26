@@ -1,0 +1,158 @@
+.BharatWork-Container {
+    display: inline-block;
+    font-size: 1rem;
+    position: relative;
+    -webkit-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+.BharatWork-Container .BharatWork-Navbar {
+    position: absolute;
+    right: 0;
+}
+.BharatWork-Container .BharatWork-Navbar .BharatWork-LeftClick {
+    position: absolute;
+    top: 1em;
+    right: 1.5em;
+    left: auto;
+    display: inline-block;
+    margin-top: 2px;
+    width: 1.25em;
+    height: 1.25em;
+    background-position: 50%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    color: #8b9898;
+    cursor: pointer;
+}
+.BharatWork-Container .BharatWork-Navbar .BharatWork-RightClick {
+    position: absolute;
+    top: 1em;
+    right: 1.5em;
+    left: auto;
+    display: inline-block;
+    margin-top: 2px;
+    width: 1.25em;
+    height: 1.25em;
+    background-position: 50%;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    color: #8b9898;
+    cursor: pointer;
+    margin-right: -1.4em;
+}
+.BharatWork-Container .BharatWork-Navbar .BharatWork-DisableClick {
+    pointer-events: none;
+    opacity: 0;
+}
+.BharatWork-Container .BharatWork-Months {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.BharatWork-Container .BharatWork-Months .BharatWork-ContainerMonths {
+    margin: 0 1em;
+    margin-top: 1em;
+    border-spacing: 0;
+    border-collapse: collapse;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.BharatWork-Container .BharatWork-Months .BharatWork-ContainerMonths .BharatWork-Header {
+    display: table-caption;
+    margin-bottom: 0.5em;
+    padding: 0 0.5em;
+    text-align: left;
+}
+.BharatWork-Container .BharatWork-Months .BharatWork-ContainerMonths .BharatWork-Month {
+    display: table-row-group;
+}
+.BharatWork-Container .BharatWork-Months .BharatWork-ContainerMonths .BharatWork-Month .BharatWork-WeekDays {
+    display: table-row;
+}
+.BharatWork-Container .BharatWork-Months .BharatWork-ContainerMonths .BharatWork-Month .BharatWork-WeekDays .BharatWork-WeekLabel {
+    display: table-cell;
+    padding: 0.5em;
+    border-radius: 50%;
+    vertical-align: middle;
+    text-align: center;
+    color: #8b9898;
+}
+.BharatWork-Container .BharatWork-Months .BharatWork-ContainerMonths .BharatWork-Month .BharatWork-Week {
+    display: table-row;
+}
+.BharatWork-Container .BharatWork-Months .BharatWork-ContainerMonths .BharatWork-Month .BharatWork-Week .BharatWork-Day {
+    display: table-cell;
+    padding: 0.5em;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.BharatWork-Container .BharatWork-Months .BharatWork-ContainerMonths .BharatWork-Month .BharatWork-Week .BharatWork-Hover-Day {
+    background-color: #f0f8ff;
+}
+.BharatWork-Container .BharatWork-Months .BharatWork-ContainerMonths .BharatWork-Month .BharatWork-Week .BharatWork-Disable {
+    opacity: 0;
+    cursor: default;
+    pointer-events: none;
+}
+.BharatWork-Container .BharatWork-Months .BharatWork-ContainerMonths .BharatWork-Month .BharatWork-Week .BharatWork-DisableRange {
+    color: #8b9898;
+    cursor: default;
+    pointer-events: none;
+}
+.BharatWork-Container .BharatWork-Months .BharatWork-ContainerMonths .BharatWork-Month .BharatWork-Week .BharatWork-Grey {
+    color: #8b9898;
+}
+.BharatWork-Container .BharatWork-Months .BharatWork-ContainerMonths .BharatWork-Month .BharatWork-Week .BharatWork-WeekGrey {
+    min-width: 1em;
+    border-right: 1px solid #eaecec;
+    color: #8b9898;
+    text-align: right;
+    font-size: 0.75em;
+}
+.BharatWork-Container .BharatWork-Months .BharatWork-ContainerMonths .BharatWork-Month .BharatWork-Week .BharatWork-Selected {
+    position: relative;
+    background-color: #4a90e2;
+    color: #f0f8ff;
+    border-radius: 50%;
+    text-align: center;
+}
+.BharatWork-Container .BharatWork-Months .BharatWork-ContainerMonths .BharatWork-Month .BharatWork-Week .BharatWork-StartSelected {
+    position: relative;
+    background-color: #4a90e2;
+    color: #f0f8ff;
+    border-top-left-radius: 50% !important;
+    border-bottom-left-radius: 50% !important;
+}
+.BharatWork-Container .BharatWork-Months .BharatWork-ContainerMonths .BharatWork-Month .BharatWork-Week .BharatWork-EndSelected {
+    position: relative;
+    background-color: #4a90e2;
+    color: #f0f8ff;
+    border-top-right-radius: 50% !important;
+    border-bottom-right-radius: 50% !important;
+}
+.BharatWork-Container .BharatWork-Months .BharatWork-ContainerMonths .BharatWork-Month .BharatWork-Week .BharatWork-WithinRange {
+    background-color: #f0f8ff !important;
+    color: #4a90e2;
+}
+.BharatWork-Container .BharatWork-Months .BharatWork-ContainerMonths .BharatWork-Month .BharatWork-Week .BharatWork-BeforeStart {
+    color: #8b9898;
+    pointer-events: none;
+}
+.BharatWork-Container .BharatWork-Months .BharatWork-ContainerMonths .BharatWork-Today {
+    padding-top: 0.5em;
+    text-align: center;
+}
+.BharatWork-Container .BharatWork-Months .BharatWork-ContainerMonths .BharatWork-Today .BharatWork-TodayButton {
+    border: none;
+    background-color: transparent;
+    background-image: none;
+    box-shadow: none;
+    color: #4a90e2;
+    font-size: 0.875em;
+    cursor: pointer;
+}
+
+
+/*# sourceMappingURL=vendors~main.00d928cb.chunk.css.map*/

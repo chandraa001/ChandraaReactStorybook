@@ -1,0 +1,8 @@
+{
+  "short_name": "Chandraa React Component",
+  "name": "React Component",
+  "start_url": "https://chandraareactomponent.herokuapp.com/",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
